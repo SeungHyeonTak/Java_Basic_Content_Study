@@ -16,14 +16,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        GenericType<String> gt = new GenericType<String>();
-        gt.setGenericType("가나다라");
-        String str = gt.getGenericType();
-
-//        GenericType<Integer> gt2 = new GenericType<Integer>();
-//        gt.setGenericType("1234");
+//        GenericType<String> gt = new GenericType<String>();
+//        gt.setGenericType("가나다라");
 //        String str = gt.getGenericType();
-//        System.out.println(str);
+
+        GenericType<Integer> gt2 = new GenericType<Integer>();
+        gt2.setGenericType(123);
+        Integer str = gt2.getGenericType();
+        System.out.println(str);
     }
 }
 
