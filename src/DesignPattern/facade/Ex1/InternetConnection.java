@@ -1,4 +1,4 @@
-package DesignPattern.facade;
+package DesignPattern.facade.Ex1;
 
 public class InternetConnection {
     public void connect() {

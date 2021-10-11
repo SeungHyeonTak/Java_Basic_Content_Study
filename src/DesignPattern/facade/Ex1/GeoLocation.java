@@ -1,4 +1,4 @@
-package DesignPattern.facade;
+package DesignPattern.facade.Ex1;
 
 public class GeoLocation {
     public double[] getGeoLoc() {

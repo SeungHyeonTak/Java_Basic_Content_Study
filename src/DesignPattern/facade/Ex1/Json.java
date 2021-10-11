@@ -1,4 +1,4 @@
-package DesignPattern.facade;
+package DesignPattern.facade.Ex1;
 
 import java.util.HashMap;
 import java.util.Map;
